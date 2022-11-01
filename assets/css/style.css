@@ -100,7 +100,7 @@ footer a:hover {
 }
 
 .sub-header figure {
-    top: -50px;
+    top: -40px;
     left: -145px;
 }
 
@@ -123,7 +123,7 @@ h2,
 }
 
 h2 {
-    top: -285px;
+    top: -105px;
     white-space: nowrap;
     overflow: hidden;
     animation:
@@ -162,7 +162,7 @@ h2 {
 h2,
 .sub-header article p,
 .about-btn {
-    left: 150px;
+    left: 160px;
 }
 
 /* text-fill needs to be transparent to show the gradient */
@@ -174,14 +174,14 @@ h2,
 }
 
 .sub-header article p {
-    top: -220px;
+    top: -40px;
     font-size: 20px;
     line-height: 35px;
     font-weight: lighter;
 }
 
 .about-btn {
-    top: -105px;
+    top: 80px;
     border: none;
     border-radius: 8%;
     width: 15vw;
@@ -192,11 +192,31 @@ h2,
     margin-left: 8px;
 }
 
+.icon-section {
+    width: 100%;
+    padding-top: 260px;
+    padding-left: 80px;
+}
+
+.icon-section i {
+    color: var(--main-brand);
+    font-size: 55px;
+    margin-left: 60px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48
+}
+
 /* Main Content of the Page */
 
 .container {
     width: 100%;
-    height: 200vh;
+    height: 250vh;
     margin-bottom: 80px;
 }
 
@@ -205,14 +225,13 @@ h2,
     float: left;
     border-right: 4px solid var(--light-accent);
     width: 25%;
-    height: auto;
     padding: 20px;
 }
 
 h3 {
     padding-bottom: 20px;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     letter-spacing: .4em;
     color: var(--dark-accent);
@@ -238,17 +257,25 @@ h3 {
 
 .about {
     margin-bottom: 50px;
+    margin-top: 10px;
+    padding-top: 30px;
 }
 
 /* Work Gallery Section */
 
 #work {
-    height: 130vh;
+    height: 150vh;
+}
+
+.work {
+    margin-top: 10px;
+    padding-top: 180px;
 }
 
 .gallery-container {
     width: 80%;
     margin-top: 50px;
+    padding-top: 150px;
 }
 
 .gallery {
@@ -256,21 +283,21 @@ h3 {
     display: grid;
     grid-template-columns: 55% 55%;
     grid-column-gap: 50px;
-    grid-row-gap: 80px;
-    grid-template-rows: 30% 40%;
+    grid-row-gap: 10px;
+    grid-template-rows: 80% 40% 40%;
 }
 
 .galery-item {
-    margin: auto 30px;
-    justify-content: space-around;
+    margin: 0;
 }
 
 .gallery-img {
-    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
     margin-top: 27px;
     border: 8px solid var(--light-accent);
 }
-
 
 .gallery-item p {
     position: absolute;
@@ -283,32 +310,41 @@ h3 {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-end: 2;
+    transform: scale(1, 2);
+    margin-top: 135px;
 }
 
 .gallery-item2 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-
-.gallery-item3 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.gallery-item4 {
+.gallery-item3 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
 }
 
+.gallery-item4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* Contact Section */
 #contact {
-    height: 30vh;
+    height: 50vh;
+}
+
+.contact {
+    margin-top: 10px;
+    padding-top: 100px;
+    margin-bottom: 10px;
 }
 
 
