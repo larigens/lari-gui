@@ -298,15 +298,18 @@ h3 {
 }
 
 #work {
-    margin-top: 230px;
-    height: 400vh;
+    margin-top: 140px;
+    height: 1000px;
 }
 
 .work {
     position: absolute;
-    top: 106em;
+    top: 101em;
     left: 22em;
-    height: 200vh;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    height: 1000px;
 }
 
 .gallery {
@@ -314,8 +317,7 @@ h3 {
     justify-content: center;
     display: flex;
     width: 100%;
-    height: 800px;
-    margin: 0 auto;
+    height: 1000px;
 }
 
 .row {
@@ -327,12 +329,17 @@ h3 {
     display: flex;
 }
 
+.row .row2 {
+    margin-bottom: 20px;
+}
+
 .column {
     position: relative;
     top: 0;
     left: 0;
     flex: 0 0 50%;
     text-align: center;
+    align-items: stretch;
 }
 
 .column p {
@@ -345,21 +352,16 @@ h3 {
     color: var(--light-shades);
 }
 
-#row1 {
+#img1 {
     flex: 0 0 40%;
-    height: 300px;
-}
-
-#img1,
-img3 {
-    flex: 0 0 40%;
-    height: 300px;
+    height: 600px;
 }
 
 #img2,
+#img3,
 #img4 {
-    flex: 0 0 30%;
-    height: 200px;
+    height: 100%;
+    width: 100%;
 }
 
 .column img {
@@ -473,8 +475,7 @@ img3 {
     color: var(--light-accent);
 } */
 
-footer section 
-footer {
+footer section footer {
     position: relative;
     bottom: -120px;
     left: 38%;
@@ -496,4 +497,4 @@ footer a {
 
 footer a {
     color: var(--light-accent);
-} 
+}
