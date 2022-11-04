@@ -380,25 +380,27 @@ h3 {
 
 
 /* Contact Section */
-/* #contact {
+#contact {
     height: 50vh;
 }
 
 .contact {
+    display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .contact-container {
-    position: relative;
-    top: -550px;
+    position: absolute;
+    top: 172em;
+    left: 22em;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     float: right;
     display: flex;
     overflow: hidden;
-    margin-right: 20px;
-    width: 75vw;
+    margin-right: 10px;
+    width: 70%;
     padding: 3px;
 }
 
@@ -410,9 +412,9 @@ h3 {
 
 .card-face.face1 {
     /* puts the face 1 on the front */
-/* z-index: 1; */
-/* makes the face 1 cover face 2 */
-/* transform: translateY(60px);
+    z-index: 1;
+    /* makes the face 1 cover face 2 */
+    transform: translateY(60px);
     text-align: center;
 }
 
@@ -440,9 +442,9 @@ h3 {
 }
 
 .contact-card:hover .card-face.face1,
-.contact-card:hover .card-face.face2 { */
-/* makes it go up to show face 2 */
-/* transform: translateY(0);
+.contact-card:hover .card-face.face2 {
+    /* makes it go up to show face 2 */
+    transform: translateY(0);
     box-shadow: 0 2px 20px var(--light-accent);
     margin-bottom: 8px;
 }
@@ -455,10 +457,10 @@ h3 {
 .card-content i {
     display: inline-block;
     font-size: 50px;
-} */
+}
 
-/* .card-face.face2 {
-    /* makes the face 1 cover face 2
+.card-face.face2 {
+    /* makes the face 1 cover face 2 */
     transform: translateY(-100px);
     box-shadow: 0 4px 10px var(--light-accent);
     box-sizing: border-box;
@@ -473,7 +475,7 @@ h3 {
     padding: 10px 15px;
     font-size: 14px;
     color: var(--light-accent);
-} */
+}
 
 footer section footer {
     position: relative;
