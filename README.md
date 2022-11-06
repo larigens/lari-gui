@@ -7,19 +7,29 @@ I'm an aspiring software engineer living in Atlanta, Georgia. Currently attendin
 
 No installation is required. Simply click on the link below to access the website.
 
->[$ git pull origin larissa](https://larigens.github.io/portfolio/)
+```bash
+  https://larigens.github.io/portfolio/
+```
 
-## Visuals
+![Logo](./assets/favicon/favicon.ico)
 
-![screenshot of the webpage](assets/images/screenshot.png)
-![screenshot of the webpage](assets/images/screenshot2.png)
-![screenshot of the webpage](assets/images/screenshot3.png)
+## Screenshots
 
-## Usage
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+## Usage/Examples
+
+```$ git pull origin larissa
 The links in the navigation bar lead you to more detailed sections of this site, where you will find more information about me.
 
-## Credits
+The cards at the bottom of the page will give you several options on how to contact me!
+```
+
+## Support
+
+For support, email larigens@gmail.com.
+
+## Acknowledgements
 
 Resources used during the development of this portfolio:
 
@@ -30,6 +40,15 @@ Resources used during the development of this portfolio:
 - [MDN](https://developer.mozilla.org/en-US/)
 
 - [FrontEnd Trend](https://linktr.ee/frontend_trend)
+
+## Feedback
+
+If you have any feedback, please reach me out at larigens@gmail.com.
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lari-gui/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/coffeebr_eak)
 
 ## License
 
