@@ -57,6 +57,7 @@ h1,
 nav a,
 button a,
 i,
+.column p,
 .card-face.face1 h4,
 .contact-container .contact-card .card-face.face2 .card-content a:hover {
     color: var(--light-shades);
@@ -130,7 +131,6 @@ aside,
 .row,
 .column {
     flex-wrap: wrap;
-
 }
 
 .intro-container,
@@ -144,7 +144,6 @@ aside,
 .card-face.face1,
 .card-face.face2 {
     display: flex;
-
 }
 
 .intro-container,
@@ -177,7 +176,6 @@ footer {
 .card-face.face1,
 .card-face.face2 {
     position: relative;
-
 }
 
 .avatar,
@@ -199,7 +197,6 @@ aside {
 .column p,
 .contact-container {
     position: absolute;
-
 }
 
 .intro {
@@ -221,7 +218,6 @@ h2 {
 h2,
 aside {
     border-right: .15em solid var(--light-accent);
-
 }
 
 h2,
@@ -324,7 +320,6 @@ aside,
 .card-face.face1,
 footer {
     text-align: center;
-
 }
 
 h3 {
@@ -356,7 +351,6 @@ h3:nth-child(2) {
 .column,
 .column p {
     left: 0;
-
 }
 
 #work {
@@ -425,7 +419,6 @@ h3:nth-child(2) {
     z-index: 1;
 }
 
-.column p,
 .card-content a,
 footer a {
     color: var(--light-accent);
