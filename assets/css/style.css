@@ -46,6 +46,7 @@ header,
 button,
 .icon-section i,
 .about p:nth-child(5),
+.column p,
 .card-face.face1,
 .card-content a:hover,
 footer a:hover {
@@ -55,7 +56,9 @@ footer a:hover {
 h1,
 nav a,
 button a,
-i {
+i,
+.card-face.face1 h4,
+.contact-container .contact-card .card-face.face2 .card-content a:hover {
     color: var(--light-shades);
 }
 
@@ -68,7 +71,8 @@ h1 {
 
 h1,
 h2,
-h3 {
+h3,
+.about p:nth-child(5) {
     letter-spacing: .2em;
 }
 
@@ -114,9 +118,19 @@ footer a:hover {
 
 .intro-container,
 .sub-header,
-.main-content {
-    flex-wrap: wrap;
+.main-content,
+h2 {
     margin: 0 auto;
+}
+
+.intro-container,
+.sub-header,
+.main-content,
+aside,
+.row,
+.column {
+    flex-wrap: wrap;
+
 }
 
 .intro-container,
@@ -142,7 +156,8 @@ footer a:hover {
 aside,
 .column,
 .card-face.face1,
-.card-face.face2 {
+.card-face.face2,
+footer {
     justify-content: center;
     align-items: center;
 }
@@ -153,7 +168,6 @@ aside,
 }
 
 .avatar {
-    flex: 0 0 50%;
     padding-bottom: 20px;
 }
 
@@ -200,9 +214,7 @@ h2 {
     animation:
         typing 3.5s steps(50, end),
         blink-caret .75s step-end infinite;
-    margin: 0 auto;
     margin-bottom: 36px;
-    width: 100%;
     font-size: 28px;
 }
 
@@ -213,8 +225,15 @@ aside {
 }
 
 h2,
-.icon-section i {
+.icon-section i,
+.about p:nth-child(5) {
     font-weight: 400;
+}
+
+h2,
+.gallery,
+.column img {
+    width: 100%;
 }
 
 @keyframes typing {
@@ -246,9 +265,18 @@ h3 {
 
 .intro p {
     width: 70%;
+}
+
+.intro p,
+.about p:nth-child(5) {
     font-size: 20px;
+}
+
+.intro p,
+.about p {
     font-weight: lighter;
     text-align: justify;
+    line-height: 30px;
 }
 
 button {
@@ -286,17 +314,27 @@ button i {
 }
 
 aside {
-    flex-wrap: wrap;
     padding-top: 50px;
     width: 20%;
     height: 310vh;
+}
+
+aside,
+.column,
+.card-face.face1,
+footer {
     text-align: center;
+
 }
 
 h3 {
     margin-top: 10px;
     padding-bottom: 10px;
     font-size: 28px;
+}
+
+h3,
+footer p {
     color: var(--dark-accent);
 }
 
@@ -306,13 +344,29 @@ h3:nth-child(2) {
 
 #about {
     height: 80vh;
+}
+
+#about,
+.work,
+.column {
     top: 0;
+}
+
+#about,
+.column,
+.column p {
     left: 0;
+
 }
 
 #work {
     height: 140vh;
     padding-top: 10px;
+}
+
+#contact {
+    height: 10vh;
+    margin-bottom: 40px;
 }
 
 .hidden {
@@ -322,37 +376,28 @@ h3:nth-child(2) {
 .about {
     top: 53em;
     left: 23em;
-    padding-top: 48px;
-    margin-right: 20px;
-    margin-bottom: 60px;
-    height: 100%;
+    margin: 10px 20px 60px auto;
     width: 70%;
+    height: 100%;
+    padding-top: 35px;
 }
 
 .about p {
     margin-bottom: 20px;
-    line-height: 30px;
-    font-weight: lighter;
-    text-align: justify;
     letter-spacing: 0.1em;
 }
 
 .about p:nth-child(5) {
     margin-top: 120px;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0.2em;
 }
 
 .work {
-    top: 0;
     float: right;
     width: 75%;
 }
 
 .gallery {
     top: -92em;
-    width: 100%;
     height: 800px;
     padding-top: 50px;
 }
@@ -361,7 +406,6 @@ h3:nth-child(2) {
     height: 200px;
     justify-content: right;
     flex-basis: 0 0 90%;
-    flex-wrap: wrap;
 }
 
 .row .row2 {
@@ -371,21 +415,20 @@ h3:nth-child(2) {
 }
 
 .column {
-    top: 0;
-    left: 0;
     flex: 0 0 50%;
-    flex-wrap: wrap;
     margin-left: 20px;
-    text-align: center;
 }
 
 .column p {
     bottom: 0;
-    left: 0;
     padding: 10px;
     z-index: 1;
-    background: var(--gradient);
-    color: var(--light-shades);
+}
+
+.column p,
+.card-content a,
+footer a {
+    color: var(--light-accent);
 }
 
 #img1 {
@@ -397,16 +440,15 @@ h3:nth-child(2) {
 #img2,
 #img3,
 #img4 {
-    height: 93%;
     width: 50%;
+    height: 93%;
 }
 
 .column img {
+    opacity: 0.8;
     border: 3px solid var(--light-accent);
     border-radius: 10px;
     height: 100%;
-    width: 100%;
-    opacity: 0.8;
 }
 
 .img1:hover,
@@ -414,19 +456,15 @@ h3:nth-child(2) {
 .img3:hover,
 .img4:hover {
     opacity: 2;
-    box-shadow: 0 6px 20px var(--light-accent);
-    border: 4px double var(--light-accent);
     transition: .2s ease-out;
+    border: 4px double var(--light-accent);
+    box-shadow: 0 6px 20px var(--light-accent);
 }
 
 /* Contact Section */
-#contact {
-    height: 10vh;
-    margin-bottom: 40px;
-}
 
 .contact {
-    height: 20%;
+    height: 20vh;
 }
 
 .contact-container {
@@ -434,10 +472,9 @@ h3:nth-child(2) {
     left: 22em;
     justify-content: space-around;
     overflow: hidden;
-    margin-right: 10px;
+    margin: 80px 10px 0px auto;
     width: 70%;
     padding: 3px;
-    margin-top: 80px;
 }
 
 .card-face {
@@ -451,19 +488,11 @@ h3:nth-child(2) {
     z-index: 1;
     /* makes the face 1 cover face 2 */
     transform: translateY(60px);
-    text-align: center;
-}
-
-.card-face.face1 h4,
-.contact-container .contact-card .card-face.face2 .card-content a:hover {
-    color: var(--light-shades);
 }
 
 .card-face.face1 h4 {
     font-size: 16px;
 }
-
-
 
 .card-face.face1,
 .card-face.face2 {
@@ -506,23 +535,11 @@ h3:nth-child(2) {
 }
 
 footer {
-    justify-content: center;
-    align-items: center;
     margin-top: 40px;
     margin-bottom: 10px;
-    text-align: center;
-}
-
-footer p {
-    color: var(--dark-accent);
 }
 
 footer p,
 footer a {
-    font-size: 15px;
-}
-
-.card-content a,
-footer a {
-    color: var(--light-accent);
+    font-size: 14px;
 }
