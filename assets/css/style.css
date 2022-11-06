@@ -119,14 +119,14 @@ footer a:hover {
 
 .intro-container,
 .sub-header,
-.main-content,
+.about-section,
 h2 {
     margin: 0 auto;
 }
 
 .intro-container,
 .sub-header,
-.main-content,
+.about-section,
 aside,
 .row,
 .column {
@@ -135,11 +135,11 @@ aside,
 
 .intro-container,
 .sub-header,
-.main-content,
+.about-section,
 .icon-section,
 .gallery,
 .row,
-.contact,
+.contact-section,
 .contact-container,
 .card-face.face1,
 .card-face.face2 {
@@ -151,7 +151,7 @@ aside,
 .avatar,
 .intro,
 .icon-section,
-.main-content,
+.about-section,
 aside,
 .column,
 .card-face.face1,
@@ -172,7 +172,7 @@ footer {
 
 .avatar,
 .column,
-.work,
+.work-section,
 .card-face.face1,
 .card-face.face2 {
     position: relative;
@@ -305,7 +305,7 @@ button i {
         'opsz' 48
 }
 
-.main-content {
+.about-section {
     width: 100px;
 }
 
@@ -342,7 +342,7 @@ h3:nth-child(2) {
 }
 
 #about,
-.work,
+.work-section,
 .column {
     top: 0;
 }
@@ -385,7 +385,7 @@ h3:nth-child(2) {
     margin-top: 120px;
 }
 
-.work {
+.work-section {
     float: right;
     width: 75%;
 }
@@ -450,8 +450,7 @@ footer a {
 }
 
 /* Contact Section */
-
-.contact {
+.contact-section {
     height: 20vh;
 }
 

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Controls the size of the viewport and the zoom level when the page is first loaded -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Larissa Guilherme, Software Engineer</title>
     <!-- Meta tags tools for SEO -->
@@ -25,71 +26,77 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- My css file -->
+    <!-- My CSS file -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Favicon -->
+    <!-- Favicon - it is a small icon that identifies my website. It appears on the tab and home screen of internet browsers, in Google's mobile results, and the Bookmarks section -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicon/site.webmanifest">
 </head>
 
-<!-- add comments -->
-
 <body>
     <header>
         <h1>Larissa Guilherme</h1>
-        <!-- GUI - unique name ? -->
         <nav>
             <a href="#about"><i class="fa fa-user-circle-o"></i>About</a>
             <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
             <a href="#contact"><i class="fa fa-coffee"></i>Contact Me</a>
+            <!-- The link will open a new page with only my resume in it -->
             <a href="./resume.html"><i class="fa fa-id-card"></i>Resume</a>
         </nav>
     </header>
 
     <main>
+        <!-- All divs in this application have been added for positioning and styling purposes -->
         <div class="intro-container">
             <section class="sub-header">
+                <!-- Each section should include a heading for identification and is useful for assistive technology users.
+                 The class attribute was added to not affect the visual output  -->
+                <h2 class="hidden">Introduction</h2>
                 <figure class="avatar">
-                    <img src="./assets/images/avatar.png" alt="a picture of me smiling">
+                    <img src="./assets/images/avatar.png" alt="a picture of me (female) smiling">
                 </figure>
                 <article class="intro">
+                    <!-- Span added for styling purpose -->
                     <h2>Hi, I am <span class="standout">Larissa!</span></h2>
                     <p>
                         I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web
                         development at Georgia Tech.
                     </p>
+                    <!--The href attribute creates a link to the about section. On click, the UI scrolls to the corresponding section -->
                     <button><a href="#about">Read more<i class="fa fa-arrow-down"></i></a></button>
                 </article>
             </section>
 
 
             <section class="icon-section">
-                <i class="fa fa-html5" aria-hidden="true"></i>
-                <i class="fa fa-css3" aria-hidden="true"></i>
+                <h2 class="hidden">Icons</h2>
+                <i class="fa fa-html5"></i>
+                <i class="fa fa-css3"></i>
                 <i class="material-symbols-outlined">
                     javascript
                 </i>
-                <i class="fa fa-git" aria-hidden="true"></i>
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <i class="fa fa-gitlab" aria-hidden="true"></i>
-                <i class="fa fa-code-fork" aria-hidden="true"></i>
-                <i class="fa fa-terminal" aria-hidden="true"></i>
+                <i class="fa fa-git"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-gitlab"></i>
+                <i class="fa fa-code-fork"></i>
+                <i class="fa fa-terminal"></i>
             </section>
         </div>
 
 
         <!-- First column - sidebar on the left -->
         <aside>
+            <!-- The id attribute has been added to link the nav to its related section -->
             <h3 id="about">About Me</h3>
             <h3 id="work">Work</h3>
             <h3 id="contact">Contact Me</h3>
         </aside>
 
-        <section class="main-content">
-            <h3 class="hidden">Main Content of the Portfolio</h3>
-            <!-- Second column  -->
+        <!-- Second column - content on the right -->
+        <section class="about-section">
+            <h3 class="hidden">About Me</h3>
             <article class="about">
                 <p>
                     Born and raised on the coast of Brazil. I moved to the US in 2020 and since then, all my choices
@@ -119,17 +126,23 @@
             </article>
         </section>
 
-        <section class="work">
+        <section class="work-section">
+            <h3 class="hidden">Work Gallery</h3>
+            <!-- The divs and classes attribute have been added for positioning -->
             <div class="gallery">
                 <div class="row">
+                    <!-- The second class was added to style the first image so that it is larger than the others -->
                     <div class="column col1">
+                        <!-- Link to the deployed application. The target attribute makes the deployed app to open in a new tab -->
                         <a href="https://larigens.github.io/prework-study-guide/" target="_blank">
                             <img src="./assets/images/prework.png" class="gallery-img"
                                 alt="screenshot of the study guide website">
+                            <!-- Image caption with the app's title -->
                             <p>Prework Study Guide</p>
                         </a>
                     </div>
                     <div class="column">
+                        <!-- The div separates the second column into three rows so that the other images are smaller (1/3) than the first deployed application -->
                         <div class="row row2">
                             <div class="column col2">
                                 <a href="https://larigens.github.io/broadenway/" target="_blank">
@@ -148,7 +161,6 @@
                                 </a>
                             </div>
                         </div>
-
                         <div class="row row2">
                             <div class="column col2">
                                 <img src="./assets/images/future-project.png" class="gallery-img"
@@ -161,24 +173,27 @@
             </div>
         </section>
 
-        <section class="contact">
-            <!-- <h3>$ git -in contact</h3> -->
+        <section class="contact-section">
+            <h3 class="hidden">Contact Me</h3>
             <div class="contact-container">
                 <div class="contact-card">
+                    <!-- Face 1 class has been added for the card that will appear on the front -->
                     <div class="card-face face1">
+                        <!-- The content inside the first card - icon and title -->
                         <div class="card-content">
                             <i class="fa fa-twitter"></i>
                             <h4>Twitter</h4>
                         </div>
                     </div>
+                    <!-- Face 2 class has been added for the card that will appear on the back -->
                     <div class="card-face face2">
                         <div class="card-content">
+                            <!-- On click it will open the link in the href attribute in a new tab -->
                             <a href="https://twitter.com/coffeebr_eak" target="_blank" type="button">
                                 Follow Me</a>
                         </div>
                     </div>
                 </div>
-
                 <div class="contact-card">
                     <div class="card-face face1">
                         <div class="card-content">
@@ -193,7 +208,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="contact-card">
                     <div class="card-face face1">
                         <div class="card-content">
@@ -208,7 +222,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="contact-card">
                     <div class="card-face face1">
                         <div class="card-content">
@@ -218,7 +231,8 @@
                     </div>
                     <div class="card-face face2">
                         <div class="card-content">
-                            <a href="mailto:larigens@gmail.com" target="_blank" type="button">
+                            <!-- On click it launches the Email Client installed on the user's computer with a default email subject along with my email address -->
+                            <a href="mailto:larigens@gmail.com?subject= Feedback" target="_blank" type="button">
                                 Email Me</a>
                         </div>
                     </div>
@@ -229,7 +243,9 @@
     </main>
 
     <footer>
+        <!-- Copyright unicode -->
         <p> &copy; 2022 Larissa Guilherme </p>
+        <!-- Link to my neighborhood on Google maps -->
         <a href="https://www.google.com/maps/@33.9797789,-84.3411097,14.79z" rel="nofollow" target="_blank">Atlanta,
             GA</a>
     </footer>
