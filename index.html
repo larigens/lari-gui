@@ -48,36 +48,39 @@
         </nav>
     </header>
 
-    <main class="container">
-        <figure class="avatar">
-            <img src="./assets/images/avatar.png" alt="a picture of me smiling">
-        </figure>
-
-        <article class="sub-header">
-            <h2>Hi, I am <span class="standout">Larissa!</span></h2>
-
-            <p>
-                I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web
-                development at Georgia Tech.
-            </p>
-            <button><a href="#about">Read more<i class="fa fa-arrow-down"></i></a></button>
-        </article>
-
-
-        <section class="icon-section">
-            <i class="fa fa-html5" aria-hidden="true"></i>
-            <i class="fa fa-css3" aria-hidden="true"></i>
-            <i class="material-symbols-outlined">
-                javascript
-            </i>
-            <i class="fa fa-git" aria-hidden="true"></i>
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <i class="fa fa-gitlab" aria-hidden="true"></i>
-            <i class="fa fa-code-fork" aria-hidden="true"></i>
-            <i class="fa fa-terminal" aria-hidden="true"></i>
-        </section>
+    <main>
+        <div class="intro-container">
+            <section class="sub-header">
+                <figure>
+                    <img src="./assets/images/avatar.png" alt="a picture of me smiling">
+                </figure>
+                <article class="intro">
+                    <h2>Hi, I am <span class="standout">Larissa!</span></h2>
+                    <p>
+                        I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web
+                        development at Georgia Tech.
+                    </p>
+                    <button><a href="#about">Read more<i class="fa fa-arrow-down"></i></a></button>
+                </article>
+            </section>
 
 
+            <section class="icon-section">
+                <i class="fa fa-html5" aria-hidden="true"></i>
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <i class="material-symbols-outlined">
+                    javascript
+                </i>
+                <i class="fa fa-git" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-gitlab" aria-hidden="true"></i>
+                <i class="fa fa-code-fork" aria-hidden="true"></i>
+                <i class="fa fa-terminal" aria-hidden="true"></i>
+            </section>
+        </div>
+
+
+        <!-- First column - sidebar on the left -->
         <aside>
             <h3 id="about">About Me</h3>
             <h3 id="work">Work</h3>
@@ -85,18 +88,18 @@
         </aside>
 
         <section class="main-content">
-            <h3 class="hidden">Main Content of the Porfolio</h3>
-            <section class="about">
+            <h3 class="hidden">Main Content of the Portfolio</h3>
+            <!-- Second column  -->
+            <article class="about">
                 <p>
                     Born and raised on the coast of Brazil. I moved to the US in 2020 and since then, all my choices
-                    have led me down a path towards tech. I like to think <span class="standout">coding</span> chose me.
+                    have led me down a path towards tech. I like to think <span class="standout">coding</span> chose
+                    me.
                 </p>
                 <p>
                     I enjoy learning new tricks and tools that make my work and my life easier, and
-                    that is how
-                    my career as a software engineer began. Solving problems and making things aesthetically
-                    pleasing
-                    is what I call "my guilty pleasure"!
+                    that is how my career as a software engineer began. Solving problems and making things aesthetically
+                    pleasing is what I call "my guilty pleasure"!
 
                     I love challenging myself to become better at my craft, so if you have any advice or feedback on
                     how I could improve, please let me know!
@@ -113,9 +116,9 @@
                 <p>
                     Create. Code. Design. Debug. Play. Workout. Have Fun !important
                 </p>
-            </section>
-
-            <section class="work">
+            </article>
+        </section>
+        <!-- <section class="work">
                 <div class="gallery">
                     <div class="row" id="row1">
                         <div class="column" id="img1">
@@ -151,10 +154,10 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="contact">
-                <!-- <h3>$ git -in contact</h3> -->
+        <!-- <section class="contact">
+                <h3>$ git -in contact</h3>
                 <div class="contact-container">
                     <div class="contact-card">
                         <div class="card-face face1">
@@ -217,7 +220,7 @@
                     </div>
                 </div>
             </section>
-        </section>
+        </section> -->
     </main>
 
     <footer>
@@ -226,7 +229,6 @@
             GA</a>
     </footer>
 
-    <script src="./assets/javascript/script.js"></script>
 </body>
 
 </html>
