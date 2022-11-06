@@ -1,28 +1,28 @@
-# Portfolio
+# Larissa Guilherme - Portfolio
 
 ## Description
-I'm an aspiring software engineer living in Atlanta, Georgia. Currently attending Georgia Tech, studying full-stack web development.
+ I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web development at Georgia Tech.
 
 ## Installation
 
 No installation is required. Simply click on the link below to access the website.
 
-```bash
-  https://larigens.github.io/portfolio/
-```
+![Logo](./assets/favicon/favicon.ico) [$ git pull origin larissa](https://larigens.github.io/) 
 
-![Logo](./assets/favicon/favicon.ico)
+## Mock-Up
 
-## Screenshots
+The following image shows the web application's appearance and functionality:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./assets/images/screenshot.png)
 
 ## Usage/Examples
 
-```$ git pull origin larissa
-The links in the navigation bar lead you to more detailed sections of this site, where you will find more information about me.
+```javascript
+The links in the navigation bar lead you to more detailed sections of this site, where you will find more information about me and how to get in contact.
+```
 
-The cards at the bottom of the page will give you several options on how to contact me!
+```javascript
+It has a clean and polished and responsive user interface that adapts to various screen sizes, so feel free to use it on your smartphone or tablet.
 ```
 
 ## Support
@@ -43,7 +43,7 @@ Resources used during the development of this portfolio:
 
 ## Feedback
 
-If you have any feedback, please reach me out at larigens@gmail.com.
+If you have any feedback, please contact me at larigens@gmail.com.
 
 ## 🔗 Links
 
