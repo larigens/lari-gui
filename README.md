@@ -13,12 +13,15 @@ No installation is required. Simply click on the link below to access the websit
 
 The following image shows the web application's appearance and functionality:
 
-![App Screenshot](./assets/images/screenshot.png)
+![App Screenshot](./assets/images/screenshot1.png)
+![App Screenshot](./assets/images/screenshot2.png)
+![App Screenshot](./assets/images/screenshot3.png)
+![App Screenshot](./assets/images/screenshot4.png)
 
 ## Usage/Examples
 
 ```javascript
-The links in the navigation bar lead you to more detailed sections of this site, where you will find more information about me, my work and how to contact me
+The links in the navigation bar lead you to more detailed sections of this site, where you will find more information about me, my work and how to contact me.
 ```
 
 ```javascript
