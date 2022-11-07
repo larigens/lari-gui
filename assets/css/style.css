@@ -20,20 +20,44 @@ body {
     color: var(--dark-shades);
 }
 
-/* Extra large devices (large laptops and desktops */
-/* @media screen and (min-width: 1200px) {} */
-
-/* Large devices (laptops/desktops) */
-/* @media screen and (min-width: 992px) {} */
-
 /* Medium devices (landscape tablets/iPad) */
-/* @media screen and (min-width: 768px) {} */
+@media screen and (max-width: 820px) {
+    .intro {
+        left: 5em;
+        margin-right: 2px;
+    }
+    nav {
+        padding:0;
+    }
+
+    .sub-header {
+        height: 45vh;
+        flex-basis: 0;
+    }
+
+    .avatar {
+        flex-basis: 0;
+    }
+
+    .avatar img {
+        top: -18em;
+        left: -22em;
+        flex: 0 0 60%;
+        height: 45vh;
+    }
+}
 
 /* Small devices (portrait tablets/iPad and large phones) */
-/* @media screen and (min-width: 600px) {} */
+@media screen and (min-width: 600px) {
+
+    /* Make the sidebar stack above the sections */
+    aside {
+        order: 1;
+    }
+}
 
 /* Extra small devices (phones) */
-/* @media screen and (max-width: 600px) {} */
+@media screen and (max-width: 600px) {}
 
 /* Header Section */
 
@@ -478,6 +502,7 @@ footer a {
 .contact-container {
     top: 172em;
     left: 22em;
+    /* Defines how to distribute the empty space between child elements */
     justify-content: space-around;
     overflow: hidden;
     margin: 80px 10px 0px auto;
