@@ -374,7 +374,7 @@ footer p {
     flex-basis: 0 0 90%;
     margin-bottom: 5px;
     height: 200px;
-    padding: 5x;
+    padding: 5px;
 }
 
 #col2 {
@@ -498,7 +498,23 @@ footer a {
 }
 
 /* Media Queries */
-@media (max-width: 1158px) {
+
+/* For Nest Hub */
+@media (max-width: 1024px) {
+
+    header {
+        height: 10vh;
+        padding-bottom: 5px;
+    }
+
+    .icon-section {
+        margin: 100px 40px 10px 0;
+    }
+
+    .icon-section i {
+        font-size: 40px;
+    }
+
     aside {
         display: none;
     }
@@ -511,9 +527,8 @@ footer a {
 
     .hidden {
         display: inline-flex;
-        flex-direction: column;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 8px;
         padding-top: 20px;
         font-size: 25px;
         color: var(--dark-accent);
@@ -521,7 +536,7 @@ footer a {
 
     .gallery {
         margin-top: 10px;
-        margin-bottom: 90px;
+        margin-bottom: 60px;
     }
 
     .contact-container {
@@ -529,11 +544,12 @@ footer a {
     }
 }
 
+/* Ipad/Tablets */
 @media (max-width: 956px) {
     header {
         flex-direction: column;
         display: flex;
-        height: 18vh;
+        height: 14vh;
         padding: 5px;
     }
 
@@ -553,16 +569,20 @@ footer a {
         justify-content: center;
     }
 
+    .sub-header {
+        margin-top: 15px;
+        height: 45vh;
+    }
+
     .icon-section {
         display: none;
     }
 
     .row {
-        flex-direction: column;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin: 0;
+        height: auto;
     }
 
     .about,
@@ -570,13 +590,67 @@ footer a {
         margin: 20px;
     }
 
+    .about {
+        height: 65vh;
+    }
+
+    .work {
+        height: 25vh;
+    }
+
+    .gallery-column {
+        margin-left: 0;
+    }
+
+    .pos {
+        transform: scale(0.92, 0.92);
+    }
+
+    #col1 {
+        height: 360px;
+    }
+
+    #img1 {
+        width: 350px;
+        height: 360px;
+    }
+
+    .gallery-p {
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    #col2 {
+        margin-top: 10px;
+    }
+
+    .gallery-row {
+        margin-bottom: 0px;
+        height: 100px;
+        padding: 0;
+    }
+
+    .contact {
+        height: 80vh;
+    }
+
+    .contact h3 {
+        margin-bottom: 0;
+        margin-left: 38px;
+    }
+
     .contact-container {
         flex-direction: column;
         align-items: center;
         margin: 5px;
     }
+
+    footer {
+        margin-top: 20px;
+    }
 }
 
+/* Smartphones */
 @media (max-width: 700px) {
     .icon-section {
         display: none;
