@@ -36,213 +36,210 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <h1>Larissa Guilherme</h1>
         <nav>
-            <a href="#about"><i class="fa fa-user-circle-o"></i>About</a>
+            <a href="#about"><i class="fa fa-user-circle-o"></i>About Me</a>
             <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
             <a href="#contact"><i class="fa fa-coffee"></i>Contact Me</a>
             <!-- The link will open a new page with only my resume in it -->
             <a href="./resume.html"><i class="fa fa-id-card"></i>Resume</a>
         </nav>
     </header>
-
     <main>
+        <!-- Introduction -->
         <!-- All divs in this application have been added for positioning and styling purposes -->
-        <div class="intro-container">
-            <section class="sub-header">
-                <!-- Each section should include a heading for identification and is useful for assistive technology users.
-                 The class attribute was added to not affect the visual output  -->
-                <h2 class="hidden">Introduction</h2>
-                <figure class="avatar">
-                    <img src="./assets/images/avatar.png" alt="a picture of me (female) smiling">
-                </figure>
-                <article class="intro">
-                    <!-- Span added for styling purpose -->
-                    <h2>Hi, I am <span class="standout">Larissa!</span></h2>
+        <section class="sub-header">
+            <!-- Span added for styling purpose -->
+            <h2>Hi, I am <span class="standout">Larissa!</span></h2>
+            <figure>
+                <img src="./assets/images/avatar.png" alt="a picture of me (female) smiling">
+            </figure>
+            <p>
+                I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web
+                development at Georgia Tech.
+            </p>
+            <!--The href attribute creates a link to the about section. On click, the UI scrolls to the corresponding section -->
+            <button><a href="#about">Read more<i class="fa fa-arrow-down"></i></a></button>
+        </section>
+
+        <!-- Icon Section-->
+        <section class="icon-section">
+            <i class="fa fa-html5"></i>
+            <i class="fa fa-css3"></i>
+            <i class="material-symbols-outlined">
+                javascript
+            </i>
+            <i class="fa fa-git"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-gitlab"></i>
+            <i class="fa fa-code-fork"></i>
+            <i class="fa fa-terminal"></i>
+        </section>
+
+        <!-- Main Content of the Portfolio -->
+        <div class="row">
+            <!-- First column - Sidebar on the left -->
+            <aside>
+                <!-- The id attribute has been added to link the nav to its related section -->
+                <h3 id="about">About Me</h3>
+                <h3 id="work">Work</h3>
+                <h3 id="contact">Contact Me</h3>
+            </aside>
+            <!-- Second column - Content on the right -->
+            <section class="main">
+                <!-- About Section -->
+                <article class="about">
+                    <h3 class="hidden">About Me</h3>
                     <p>
-                        I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web
-                        development at Georgia Tech.
+                        Born and raised on the coast of Brazil. I moved to the US in 2020 and since then, all my choices
+                        have led me down a path towards tech. I like to think <span class="standout">coding</span> chose
+                        me.
                     </p>
-                    <!--The href attribute creates a link to the about section. On click, the UI scrolls to the corresponding section -->
-                    <button><a href="#about">Read more<i class="fa fa-arrow-down"></i></a></button>
+                    <p>
+                        I enjoy learning new tricks and tools that make my work and my life easier, and
+                        that is how my career as a software engineer began. Solving problems and making things
+                        aesthetically
+                        pleasing is what I call "my guilty pleasure"!
+
+                        I love challenging myself to become better at my craft, so if you have any advice or feedback on
+                        how I could improve, please let me know!
+                    </p>
+                    <p>
+                        I am currently working on a personal project called Coffee Break, which is a website that will
+                        allow users to find information about everything I'm learning as I work to become a software
+                        engineer. The main goal is to pass on my knowledge to future programmers.
+                    </p>
+                    <p>
+                        In my free time, I like to play video games and workout to de-stress after hours of de-bugging
+                        hah
+                    </p>
+                    <p>
+                        Create. Code. Design. Debug. Play. Workout. Have Fun !important;
+                    </p>
+                </article>
+                <br>
+
+                <!-- Work Section -->
+                <article class="work">
+                    <!-- The class attribute was added to not affect the visual output unless the user's screen is less than 1158px wide -->
+                    <h3 class="hidden">Work</h3>
+                    <div class="gallery">
+                        <!-- Class 'pos' was added for positioning the p tag -->
+                        <!-- The id was added to style the first image so that it is bigger than the others -->
+                        <div class="gallery-column pos" id="col1">
+                            <!-- Link to the deployed application. The target attribute makes the deployed app to open in a new tab -->
+                            <a href="https://larigens.github.io/prework-study-guide/" target="_blank">
+                                <img src="./assets/images/prework.png" class="gallery-img" id="img1"
+                                    alt="screenshot of the study guide website">
+                                <!-- Image caption with the app's title -->
+                                <p class="gallery-p">Prework Study Guide</p>
+                            </a>
+                            <!-- Future feature TODO: on hover, add a short description of the project -->
+                        </div>
+                        <br>
+                        <div class="gallery-column" id="col2">
+                            <!-- The div separates the second column into three rows so that the other images are smaller (1/3) than the first deployed application -->
+                            <div class="gallery-row pos">
+                                <a href="https://larigens.github.io/broadenway/" target="_blank">
+                                    <img src="./assets/images/broadenway.png" class="gallery-img" id="img2"
+                                        alt="screenshot of the marketing agency website">
+                                    <p class="gallery-p">Broadenway</p>
+                                </a>
+                            </div>
+                            <br>
+                            <div class="gallery-row pos">
+                                <a href="https://github.com/larigens/coffeebr" target="_blank">
+                                    <img src="./assets/images/coffee-break.png" class="gallery-img" id="img3"
+                                        alt="screenshot of my personal future blog">
+                                    <p class="gallery-p">Coffee Break</p>
+                                </a>
+                            </div>
+                            <br>
+                            <div class="gallery-row pos">
+                                <img src="./assets/images/future-project.png" class="gallery-img" id="img4"
+                                    alt="logo of my future project - a woman, a cup of coffee, html tags, bugs and hands breaking a chain">
+                                <p class="gallery-p">Future Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <br>
+
+                <!-- Contact Section -->
+                <article class="contact">
+                    <h3 class="hidden">Contact Me</h3>
+                    <div class="contact-container">
+                        <div class="contact-card">
+                            <!-- Face 1 class has been added for the card that will appear on the front -->
+                            <div class="card-face face1">
+                                <!-- The content inside the first card - icon and title -->
+                                <div class="card-content">
+                                    <i class="fa fa-twitter"></i>
+                                    <h4>Twitter</h4>
+                                </div>
+                            </div>
+                            <!-- Face 2 class has been added for the card that will appear on the back -->
+                            <div class="card-face face2">
+                                <div class="card-content">
+                                    <!-- On click it will open the link in the href attribute in a new tab -->
+                                    <a href="https://twitter.com/coffeebr_eak" target="_blank" type="button">
+                                        Follow Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-face face1">
+                                <div class="card-content">
+                                    <i class="fa fa-linkedin"></i>
+                                    <h4>LinkedIn</h4>
+                                </div>
+                            </div>
+                            <div class="card-face face2">
+                                <div class="card-content">
+                                    <a href="https://www.linkedin.com/in/lari-gui/" target="_blank" type="button">
+                                        Connect With Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-face face1">
+                                <div class="card-content">
+                                    <i class="fa fa-github"></i>
+                                    <h4>GitHub</h4>
+                                </div>
+                            </div>
+                            <div class="card-face face2">
+                                <div class="card-content">
+                                    <a href="https://github.com/larigens" target="_blank" type="button">
+                                        Follow Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-face face1">
+                                <div class="card-content">
+                                    <i class="fa fa-envelope"></i>
+                                    <h4>Email</h4>
+                                </div>
+                            </div>
+                            <div class="card-face face2">
+                                <div class="card-content">
+                                    <!-- On click it launches the Email Client installed on the user's computer with a default email subject along with my email address -->
+                                    <a href="mailto:larigens@gmail.com?subject= Feedback" target="_blank" type="button">
+                                        Email Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </section>
-
-
-            <section class="icon-section">
-                <h2 class="hidden">Icons</h2>
-                <i class="fa fa-html5"></i>
-                <i class="fa fa-css3"></i>
-                <i class="material-symbols-outlined">
-                    javascript
-                </i>
-                <i class="fa fa-git"></i>
-                <i class="fa fa-github"></i>
-                <i class="fa fa-gitlab"></i>
-                <i class="fa fa-code-fork"></i>
-                <i class="fa fa-terminal"></i>
-            </section>
         </div>
-
-
-        <!-- First column - sidebar on the left -->
-        <aside>
-            <!-- The id attribute has been added to link the nav to its related section -->
-            <h3 id="about">About Me</h3>
-            <h3 id="work">Work</h3>
-            <h3 id="contact">Contact Me</h3>
-        </aside>
-
-        <!-- Second column - content on the right -->
-        <section class="about-section">
-            <h3 class="hidden">About Me</h3>
-            <article class="about">
-                <p>
-                    Born and raised on the coast of Brazil. I moved to the US in 2020 and since then, all my choices
-                    have led me down a path towards tech. I like to think <span class="standout">coding</span> chose
-                    me.
-                </p>
-                <p>
-                    I enjoy learning new tricks and tools that make my work and my life easier, and
-                    that is how my career as a software engineer began. Solving problems and making things aesthetically
-                    pleasing is what I call "my guilty pleasure"!
-
-                    I love challenging myself to become better at my craft, so if you have any advice or feedback on
-                    how I could improve, please let me know!
-                </p>
-                <p>
-                    I am currently working on a personal project called Coffee Break, which is a website that will
-                    allow users to find information about everything I'm learning as I work to become a software
-                    engineer. The main goal is to pass on my knowledge to future programmers.
-                </p>
-                <p>
-                    In my free time, I like to play video games and workout to de-stress after hours of de-bugging
-                    hah
-                </p>
-                <p>
-                    Create. Code. Design. Debug. Play. Workout. Have Fun !important;
-                </p>
-            </article>
-        </section>
-
-        <section class="work-section">
-            <h3 class="hidden">Work Gallery</h3>
-            <!-- The divs and classes attribute have been added for positioning -->
-            <div class="gallery">
-                <div class="row">
-                    <!-- The second class was added to style the first image so that it is larger than the others -->
-                    <div class="column col1">
-                        <!-- Link to the deployed application. The target attribute makes the deployed app to open in a new tab -->
-                        <a href="https://larigens.github.io/prework-study-guide/" target="_blank">
-                            <img src="./assets/images/prework.png" class="gallery-img"
-                                alt="screenshot of the study guide website">
-                            <!-- Image caption with the app's title -->
-                            <p>Prework Study Guide</p>
-                        </a>
-                        <!-- Future feature to test: on hover, add a short description of the project -->
-                    </div>
-                    <div class="column">
-                        <!-- The div separates the second column into three rows so that the other images are smaller (1/3) than the first deployed application -->
-                        <div class="row row2">
-                            <div class="column col2">
-                                <a href="https://larigens.github.io/broadenway/" target="_blank">
-                                    <img src="./assets/images/broadenway.png" class="gallery-img"
-                                        alt="screenshot of the marketing agency website">
-                                    <p>Broadenway</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row row2">
-                            <div class="column col2">
-                                <a href="https://github.com/larigens/coffeebr" target="_blank">
-                                    <img src="./assets/images/coffee-break.png" class="gallery-img"
-                                        alt="screenshot of my personal future blog">
-                                    <p>Coffee Break</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row row2">
-                            <div class="column col2">
-                                <img src="./assets/images/future-project.png" class="gallery-img"
-                                    alt="logo of my future project - a woman, a cup of coffee, html tags, bugs and hands breaking a chain">
-                                <p>Future Project</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <h3 class="hidden">Contact Me</h3>
-            <div class="contact-container">
-                <div class="contact-card">
-                    <!-- Face 1 class has been added for the card that will appear on the front -->
-                    <div class="card-face face1">
-                        <!-- The content inside the first card - icon and title -->
-                        <div class="card-content">
-                            <i class="fa fa-twitter"></i>
-                            <h4>Twitter</h4>
-                        </div>
-                    </div>
-                    <!-- Face 2 class has been added for the card that will appear on the back -->
-                    <div class="card-face face2">
-                        <div class="card-content">
-                            <!-- On click it will open the link in the href attribute in a new tab -->
-                            <a href="https://twitter.com/coffeebr_eak" target="_blank" type="button">
-                                Follow Me</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="card-face face1">
-                        <div class="card-content">
-                            <i class="fa fa-linkedin"></i>
-                            <h4>LinkedIn</h4>
-                        </div>
-                    </div>
-                    <div class="card-face face2">
-                        <div class="card-content">
-                            <a href="https://www.linkedin.com/in/lari-gui/" target="_blank" type="button">
-                                Connect With Me</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="card-face face1">
-                        <div class="card-content">
-                            <i class="fa fa-github"></i>
-                            <h4>GitHub</h4>
-                        </div>
-                    </div>
-                    <div class="card-face face2">
-                        <div class="card-content">
-                            <a href="https://github.com/larigens" target="_blank" type="button">
-                                Follow Me</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="card-face face1">
-                        <div class="card-content">
-                            <i class="fa fa-envelope"></i>
-                            <h4>Email</h4>
-                        </div>
-                    </div>
-                    <div class="card-face face2">
-                        <div class="card-content">
-                            <!-- On click it launches the Email Client installed on the user's computer with a default email subject along with my email address -->
-                            <a href="mailto:larigens@gmail.com?subject= Feedback" target="_blank" type="button">
-                                Email Me</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
+    <!-- Footer -->
     <footer>
         <!-- Copyright unicode -->
         <p> &copy; 2022 Larissa Guilherme </p>
