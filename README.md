@@ -3,6 +3,8 @@
 ## Description
  I am an aspiring software engineer living in Atlanta, GA and currently studying full-stack web development at Georgia Tech.
 
+This portfolio is a showcase of the skills and abilities that I have developed, so that an employer can assess whether I am a good candidate for an open position.
+
 ## Installation
 
 No installation is required. Simply click on the link below to access the website.
