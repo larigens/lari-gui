@@ -630,10 +630,6 @@ footer a {
         padding: 0;
     }
 
-    .contact {
-        height: 80vh;
-    }
-
     .contact h3 {
         margin-bottom: 0;
         margin-left: 38px;
@@ -652,12 +648,20 @@ footer a {
 
 /* Smartphones */
 @media (max-width: 700px) {
+    nav .fa {
+        display: none;
+    }
+
     .icon-section {
         display: none;
     }
 
     .row {
         flex-direction: column;
+    }
+
+    .about {
+        height: 78vh;
     }
 
     .gallery-column {
