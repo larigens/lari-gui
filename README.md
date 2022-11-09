@@ -19,13 +19,13 @@ Open the camera app on your device and scan the QR code below:
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+The following images shows the web application's appearance and functionality:
 
 
-<img src='./assets/images/screenshot1.png' alt="app screenshot" width="260px" height="130px">
-<img src='./assets/images/screenshot2.png' alt="app screenshot" width="260px" height="130px">
-<img src='./assets/images/screenshot3.png' alt="app screenshot" width="260px" height="130px">
-<img src='./assets/images/screenshot4.png' alt="app screenshot" width="260px" height="130px">
+<img src='./assets/images/screenshot1.png' alt="app screenshot" width="300px" height="150px">
+<img src='./assets/images/screenshot2.png' alt="app screenshot" width="300px" height="150px">
+<img src='./assets/images/screenshot3.png' alt="app screenshot" width="300px" height="150px">
+<img src='./assets/images/screenshot4.png' alt="app screenshot" width="300px" height="150px">
 
 ## Usage/Examples
 
