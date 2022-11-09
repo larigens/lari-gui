@@ -660,6 +660,10 @@ footer a {
         flex-direction: column;
     }
 
+    .main {
+        width: auto;
+    }
+
     .about {
         height: 78vh;
     }

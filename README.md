@@ -11,22 +11,27 @@ No installation is required. Simply click on the link below to access the websit
 
 ![Logo](./assets/favicon/favicon.ico) [$ git pull origin larissa](https://larigens.github.io/) 
 
+OR
+
+Open the camera app on your device and scan the QR code below:
+
+<img src='./assets/images/qrcode.png' alt="qr code" width="150px" height="150px">
+
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
-![App Screenshot](./assets/images/screenshot1.png)
-![App Screenshot](./assets/images/screenshot2.png)
-![App Screenshot](./assets/images/screenshot3.png)
-![App Screenshot](./assets/images/screenshot4.png)
+
+<img src='./assets/images/screenshot1.png' alt="app screenshot" width="260px" height="130px">
+<img src='./assets/images/screenshot2.png' alt="app screenshot" width="260px" height="130px">
+<img src='./assets/images/screenshot3.png' alt="app screenshot" width="260px" height="130px">
+<img src='./assets/images/screenshot4.png' alt="app screenshot" width="260px" height="130px">
 
 ## Usage/Examples
 
-```javascript
-The links in the navigation bar leads you to more detailed sections of this site, where you will find more information about me, my work and how to contact me.
-```
+The links in the navigation bar leads you to more detailed sections of this website, where you will find more information about me, my work and how to contact me.
 
-```javascript
+```
 It has a clean and polished and responsive user interface that adapts to various screen sizes, so feel free to use it on your smartphone or tablet.
 ```
 
