@@ -9,7 +9,7 @@ This portfolio is a showcase of the skills and abilities that I have developed, 
 
 No installation is required. Simply click on the link below to access the website.
 
-![Logo](./assets/favicon/favicon.ico) [$ git pull origin larissa](https://larigens.github.io/) 
+![Logo](./assets/favicon/favicon.ico)[$ git pull origin larissa](https://larigens.github.io/)
 
 OR
 
@@ -22,18 +22,20 @@ Open the camera app on your device and scan the QR code below:
 The following images shows the web application's appearance and functionality:
 
 
-<img src='./assets/images/screenshot1.png' alt="app screenshot" width="300px" height="150px">
-<img src='./assets/images/screenshot2.png' alt="app screenshot" width="300px" height="150px">
-<img src='./assets/images/screenshot3.png' alt="app screenshot" width="300px" height="150px">
-<img src='./assets/images/screenshot4.png' alt="app screenshot" width="300px" height="150px">
+<img src='./assets/images/screenshot1.png' alt="app screenshot" width="320px" height="160px">
+<img src='./assets/images/screenshot2.png' alt="app screenshot" width="320px" height="160px">
+<img src='./assets/images/screenshot3.png' alt="app screenshot" width="320px" height="160px">
+<img src='./assets/images/screenshot4.png' alt="app screenshot" width="320px" height="160px">
 
 ## Usage/Examples
 
 The links in the navigation bar leads you to more detailed sections of this website, where you will find more information about me, my work and how to contact me.
 
-```
-It has a clean and polished and responsive user interface that adapts to various screen sizes, so feel free to use it on your smartphone or tablet.
-```
+
+It has a responsive user interface that adapts to various screen sizes!
+
+<mark style="color:pink; background-color:black">**Feel free to use it on your smartphone or tablet.**</mark>
+
 
 ## Support
 
