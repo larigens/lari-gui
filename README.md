@@ -36,11 +36,6 @@ It has a responsive user interface that adapts to various screen sizes!
 
 <mark style="color:pink; background-color:black">**Feel free to use it on your smartphone or tablet.**</mark>
 
-
-## Support
-
-For support, email larigens@gmail.com.
-
 ## Acknowledgements
 
 Resources used during the development of this portfolio:
