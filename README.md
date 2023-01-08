@@ -11,6 +11,8 @@
 </p>
 <p align="center">
   Scan the QR code:
+</p>
+<p align="center">
   <img src='./assets/images/qrcode.png' alt="qr code" width="80px" height="80px">
   <br>
 </p>
