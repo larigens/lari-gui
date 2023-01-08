@@ -1,15 +1,16 @@
 <h1 align="center"> Larissa Guilherme </h1>
 
 <p align="center">
-  <img src="./assets/favicon/favicon.ico" alt="logo" width="150px" height="150px" />
+  <img src="./assets/favicon/favicon.ico" alt="logo" width="100px" height="100px" />
   <br>
   <i>Portfolio</i>
   <br>
 </p>
 <p align="center">
   <a href="https://larigens.github.io/lari-gui"><strong>Larissa Guilherme</strong></a>
-  Open the camera app on your device and scan the QR code below:
-  <img src='./assets/images/qrcode.png' alt="qr code" width="150px" height="150px">
+</p align="center">
+  Scan the QR code:
+  <img src='./assets/images/qrcode.png' alt="qr code" width="80px" height="80px">
   <br>
 </p>
 <br>
