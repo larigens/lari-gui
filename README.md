@@ -8,7 +8,8 @@
 </p>
 <p align="center">
   <a href="https://larigens.github.io/lari-gui"><strong>Larissa Guilherme</strong></a>
-</p align="center">
+</p>
+<p align="center">
   Scan the QR code:
   <img src='./assets/images/qrcode.png' alt="qr code" width="80px" height="80px">
   <br>
