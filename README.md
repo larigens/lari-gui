@@ -19,11 +19,11 @@
 <br>
 
 ![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-9cf.svg)
-![Contributors](https://img.shields.io/github/contributors/larigens/lari-gui?style=plastic&color=9cf)
-![Forks](https://img.shields.io/github/forks/larigens/lari-gui?style=plastic&color=9cf)
-![Stars](https://img.shields.io/github/stars/larigens/lari-gui?style=plastic&color=9cf)
-![Licence](https://img.shields.io/github/license/larigens/lari-gui?style=plastic&color=9cf)
-![Issues](https://img.shields.io/github/issues/larigens/lari-gui?style=plastic&color=9cf)
+![Contributors](https://img.shields.io/github/contributors/larigens/lari-gui?style=plastic&color=ff69b4)
+![Forks](https://img.shields.io/github/forks/larigens/lari-gui?style=plastic&color=ff69b4)
+![Stars](https://img.shields.io/github/stars/larigens/lari-gui?style=plastic&color=ff69b4)
+![Licence](https://img.shields.io/github/license/larigens/lari-gui?style=plastic&color=ff69b4)
+![Issues](https://img.shields.io/github/issues/larigens/lari-gui?style=plastic&color=ff69b4)
 
 ---
 ## Description
