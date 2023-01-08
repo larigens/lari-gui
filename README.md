@@ -48,7 +48,7 @@ This portfolio is a showcase of the skills and abilities that I have developed t
 
 ## Mock-Up
 
-The following gif shows the web application's appearance and functionality:
+The following images shows the web application's appearance and functionality:
 
 <img src='./assets/images/screenshot1.png' alt="app screenshot" width="320px" height="160px">
 <img src='./assets/images/screenshot2.png' alt="app screenshot" width="320px" height="160px">
