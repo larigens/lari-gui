@@ -18,7 +18,7 @@
 </p>
 <br>
 
-![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-9cf.svg)
+![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-ff69b4.svg)
 ![Contributors](https://img.shields.io/github/contributors/larigens/lari-gui?style=plastic&color=ff69b4)
 ![Forks](https://img.shields.io/github/forks/larigens/lari-gui?style=plastic&color=ff69b4)
 ![Stars](https://img.shields.io/github/stars/larigens/lari-gui?style=plastic&color=ff69b4)
