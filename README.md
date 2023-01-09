@@ -66,8 +66,9 @@ It has a responsive user interface that adapts to various screen sizes!
 ## Questions
 
 For questions and support feel free to contact me via:
+
 <a href="mailto:larigens@gmail.com">📧 Email </a>
-<a href="https://github.com/${github}">🐈‍⬛ GitHub </a>
+<a href="https://github.com/larigens">🐈‍⬛ GitHub </a>
 
 ## Contributions
 ### Contributing Guidelines
